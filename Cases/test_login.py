@@ -1,13 +1,14 @@
 from Common.config import init_driver
 from Pages.Page import Page_Obj
 import pytest
-
+from Common.Read_Data import ret_yaml_data
 
 class Test_login():
 
     def setup_class(self):
         self.driver = init_driver('com.krhd.qls.zhxj', 'com.krhd.qls.zhxj.ui.login.LoginActivity')
         self.loginObj = Page_Obj(self.driver).Login_Page()
+        self.data = ret_yaml_data("data")
 
     def teardown(self):
         self.loginObj.clear_input()

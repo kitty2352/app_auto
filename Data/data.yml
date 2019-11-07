@@ -1,0 +1,16 @@
+loginData:
+  test01:
+    username: 'admin'
+    password: '123'
+  test02:
+    username: 'admin'
+    password: '1234'
+  test03:
+    username: 'hhh'
+    password: '1234'
+  test04:
+    username: ''
+    password: '1234'
+  test05:
+    username: 'admin'
+    password: ''
