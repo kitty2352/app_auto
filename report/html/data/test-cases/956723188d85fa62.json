@@ -1,0 +1,83 @@
+{
+  "uid" : "956723188d85fa62",
+  "name" : "test_two",
+  "fullName" : "Cases.test.Test_Class#test_two",
+  "historyId" : "67156529111d7481d1d9e8c025b007d6",
+  "time" : {
+    "start" : 1573201963467,
+    "stop" : 1573201963468,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 成功了\nassert 'hello' == 'hi'\n  - hello\n  + hi",
+  "statusTrace" : "self = <Cases.test.Test_Class object at 0x00000191C1F74C50>\n\n    def test_two(self):\n        x = \"hello\"\n>       assert x == \"hi\", '成功了'\nE       AssertionError: 成功了\nE       assert 'hello' == 'hi'\nE         - hello\nE         + hi\n\nCases\\test.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Class"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GN7855I"
+  }, {
+    "name" : "thread",
+    "value" : "892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "c522d48437f4e69c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 成功了\nassert 'hello' == 'hi'\n  - hello\n  + hi",
+      "time" : {
+        "start" : 1573200697505,
+        "stop" : 1573200697506,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cb1f184fb3e2d2ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 成功了\nassert 'hello' == 'hi'\n  - hello\n  + hi",
+      "time" : {
+        "start" : 1573200027363,
+        "stop" : 1573200027364,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "956723188d85fa62.json",
+  "parameterValues" : [ ]
+}

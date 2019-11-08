@@ -8,6 +8,8 @@ def init_driver(appPacke='com.krhd.qls.zhxj', appActive='com.krhd.qls.zhxj.ui.lo
     desired_caps['platformName'] = 'Android'
     desired_caps['platformVersion'] = '9'
     desired_caps['deviceName'] = '4db643a8'
+    # 设置应用不重置
+    # desired_caps['noReset'] = 'true'
     # app信息
     desired_caps['appPackage'] = appPacke
     desired_caps['appActivity'] = appActive

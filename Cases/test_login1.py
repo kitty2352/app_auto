@@ -1,17 +1,18 @@
 from Common.config import init_driver
 from Pages.Page import Page_Obj
 import pytest
-from Common.Read_Data import ret_yaml_data
-
+from Common.Read_Data import Read_Data
+import allure
 
 # 通过数据驱动方式实现测试用例
 def test_data():
     data_list = []
-    data = ret_yaml_data("data").get("loginData")
+    data = Read_Data("data.yml").return_data().get("loginData")
     for i in data.keys():
         data_list.append((i, data.get(i).get("username"), data.get(i).get("password")))
     return data_list
 
+@allure.severity(allure.severity_level.NORMAL)
 class Test_login():
 
     def setup(self):

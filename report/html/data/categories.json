@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 成功了\nassert 'hello' == 'hi'\n  - hello\n  + hi",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "956723188d85fa62",
+        "parentUid" : "5a56978e8138c553ce0180a04e5e5c92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573201963467,
+          "stop" : 1573201963468,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a56978e8138c553ce0180a04e5e5c92"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

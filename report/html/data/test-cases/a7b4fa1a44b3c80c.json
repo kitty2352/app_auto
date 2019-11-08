@@ -1,0 +1,68 @@
+{
+  "uid" : "a7b4fa1a44b3c80c",
+  "name" : "test01[test05-admin-]",
+  "fullName" : "Cases.test_login1.Test_login#test01",
+  "historyId" : "c1d48d440ddf054632da8feb1fd29fd4",
+  "time" : {
+    "start" : 1573202118587,
+    "stop" : 1573202126161,
+    "duration" : 7574
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GN7855I"
+  }, {
+    "name" : "thread",
+    "value" : "892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.test_login1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pwd",
+    "value" : "''"
+  }, {
+    "name" : "test_num",
+    "value" : "'test05'"
+  }, {
+    "name" : "user",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7b4fa1a44b3c80c.json",
+  "parameterValues" : [ "''", "'test05'", "'admin'" ]
+}

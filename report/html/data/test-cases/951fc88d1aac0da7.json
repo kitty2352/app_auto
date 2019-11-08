@@ -1,0 +1,54 @@
+{
+  "uid" : "951fc88d1aac0da7",
+  "name" : "test_a",
+  "fullName" : "Cases.test_abc.Test_ABC#test_a",
+  "historyId" : "9dd8d85c6a201affea4a35f81cf2f331",
+  "time" : {
+    "start" : 1573200027458,
+    "stop" : 1573200027458,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_abc"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ABC"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GN7855I"
+  }, {
+    "name" : "thread",
+    "value" : "15720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.test_abc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "951fc88d1aac0da7.json",
+  "parameterValues" : [ ]
+}

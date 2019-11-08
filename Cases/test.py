@@ -1,8 +1,10 @@
 from Common.config import init_driver
 import time
 import pytest
+import allure
 
 
+@allure.severity(allure.severity_level.MINOR)
 class Test_Class:
 
     def test_one(self):
