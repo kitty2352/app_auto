@@ -27,5 +27,5 @@
 
 在cmd下运行命令：
 * pytest （运行测试用例代码）
-* allure generate --clean  report/ -o report/html（）
+* allure generate --clean  report/ -o report/html（生成测试报告）
 
